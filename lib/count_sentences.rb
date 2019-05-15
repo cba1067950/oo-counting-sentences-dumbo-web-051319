@@ -22,6 +22,7 @@ class String
         count += 1
         binding.pry
       end 
+      binding.pry
     end
     #array = self.split("?")
     #binding.pry 
