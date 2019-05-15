@@ -24,6 +24,6 @@ class String
       end 
     end
     #array = self.split("?")
-    binding.pry 
+    #binding.pry 
   end
 end
