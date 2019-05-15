@@ -15,10 +15,8 @@ class String
   end
 
   def count_sentences
+    count = 0
     binding.pry 
-    self.each do |element|
-      
-    binding.pry
     end  
     
   end
