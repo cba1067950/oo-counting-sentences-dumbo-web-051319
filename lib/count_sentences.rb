@@ -18,7 +18,7 @@ class String
     count = 0
     count = self.split.count
     binding.pry 
-    end  
+
     
   end
 end
