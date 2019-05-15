@@ -15,7 +15,6 @@ class String
   end
 
   def count_sentences
-    count = 0
     array = self.split
     array.each do |elem|
       if elem.end_with?(".") == true || elem.end_with?("?") == true || elem.end_with?("!") == true 
