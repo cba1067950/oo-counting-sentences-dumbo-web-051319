@@ -18,15 +18,16 @@ class String
     count = 0
     array = self.split
     array.each do |elem|
-      binding.pry
+      #binding.pry
 
       if elem.end_with?(".") == true || elem.end_with?("?") == true || elem.end_with?("!") == true 
         count += 1
-        binding.pry
+        #binding.pry
       end 
-      binding.pry
+      #binding.pry
     end
     #array = self.split("?")
     #binding.pry 
+    count 
   end
 end
