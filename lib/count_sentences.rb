@@ -18,7 +18,7 @@ class String
     array = self.split
     array.each do |elem|
       binding.pry
-      if elem.sentence? || elem.question? || elem.exclamation?
+      if elem.sentence? == true || elem.question? == true || elem.exclamation? == true
         count += 1
         binding.pry
       end 
