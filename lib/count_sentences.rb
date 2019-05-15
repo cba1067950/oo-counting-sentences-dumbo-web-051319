@@ -20,6 +20,7 @@ class String
       if elem.end_with?(".") == true || elem.end_with?("?") == true || elem.end_with?("!") == true 
         count += 1
       end 
+      binding.pry
     end
     count 
   end
