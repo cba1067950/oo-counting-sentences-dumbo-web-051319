@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    string do |elem|
+    self do |elem|
       binding.pry
       if elem.sentence? || elem.question? || elem.exclamation?
         binding.pry
