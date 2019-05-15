@@ -15,14 +15,13 @@ class String
   end
 
   def count_sentences
-    self.split
-    binding.pry
-    # array.each do |elem|
-    #   if elem.end_with?(".") == true || elem.end_with?("?") == true || elem.end_with?("!") == true 
-    #     count += 1
-    #   end 
-    #   binding.pry
-    # end
+    array = self.split
+    array.each do |elem|
+      if elem.end_with?(".") == true || elem.end_with?("?") == true || elem.end_with?("!") == true 
+        count += 1
+      end 
+      binding.pry
+    end
     count 
   end
 end
