@@ -18,7 +18,7 @@ class String
     array = self.split
     array.each do |elem|
       binding.pry
-      if elem.end_with(".") == true
+      if elem.end_with?(".") == true
         count += 1
         binding.pry
       end 
