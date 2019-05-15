@@ -19,6 +19,7 @@ class String
     array.each do |elem|
       binding.pry
       if elem.sentence? || elem.question? || elem.exclamation?
+        count += 1
         binding.pry
       end 
     end
